@@ -18,14 +18,14 @@ sys.path.insert(0, os.path.abspath('.'))
 import time
 
 project = 'FT2zXcXvX'
-author = '[AUTORZY]'
+author = 'Maciej Szeptuch'
 titlepage = {
         "faculty": "Fizyki i Informatyki Stosowanej",
         "year": "auto",
-        "groupID": "[NR GRUPY ĆWICZENIOWEJ]",
-        "team": "[NR ZESPOŁU]",
-        "title": "[TEMAT ĆWICZENIA]",
-        "number": "[NUMER ĆWICZENIA]",
+        "groupID": "-",
+        "team": "-",
+        "title": "Rozwiązywanie równań dynamiki Newtona z automatyczną kontrolą błędów i doborem kroku czasowego",
+        "number": "2",
 
         "taskDate": "auto", # [DATA LABORATORIUM]
         "creationDate": "auto", # [DATA POWSTANIA SPRAWOZDANIA]
@@ -33,7 +33,7 @@ titlepage = {
 
         # nothing to change here
         "author": author,
-        "subject": "PRACOWNIA FIZYCZNA WFiS AGH",
+        "subject": "Metody Obliczeniowe Fizyki",
 }
 
 if titlepage["taskDate"] == "auto":
